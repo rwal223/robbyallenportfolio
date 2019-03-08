@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Robby Allen Portfolio Architecture</title>
+<link rel="stylesheet" href="css/stylesheet.css">
+<link href="https://fonts.googleapis.com/css?family=Raleway|Montserrat|VT323" rel="stylesheet">
+
+  <style>
+  body {
+      font-family: "Raleway", sans-serif;
+      margin-top: 0px;
+  }
+
+  .sidenav {
+      height: 100%;
+      width: 160px;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #ffffff;
+      overflow-x: hidden;
+      padding-top: 20%;
+  }
+
+  .sidenav a {
+      padding: 6px 8px 6px 16px;
+      text-decoration: none;
+      font-size: 90%;
+      color: #818181;
+      display: block;
+  }
+
+  .sidenav a:hover {
+      color: #f1f1f1;
+  }
+
+  .main {
+      margin-left: 160px; /* Same as the width of the sidenav */
+      padding: 0px 10px;
+  }
+
+  @media screen and (max-height: 450px) {
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
+  }
+  </style>
+  </head>
+  <body>
+  <div class="header"> <h2>Veterans Village</h2> </div>
+
+  <div>
+  <div class="sidenav">
+    <a href="themarsh.html">The Marsh</a>
+    <a href="gateway.html">Gateway</a>
+    <a href="veteransvillage.html">Veterans Village</a>
+    <a href="bronxrivervortex.html">Bronx River Vortex</a>
+    <p></p>
+    <a href="graphicdesign.html">Graphic Design</a>
+  </div>
+
+  <div class="main">
+
+      <img src="images/veteransvillage/vvelevations.png" width="100%"/>
+
+    <p>HomeFirst for Kentucky Veterans commissioned my team to design a rehabilitation village for homeless veterans in Hazard, Kentucky.
+     The village provides "soul care" therapy through communal living and, most significantly, gardening.
+   Gardening feeds the village and establishes a sense of establishment and purpose.</p>
+
+
+<p></p>
+
+  <p>Residences are attached to a greenhouse which hold vertical carousel planters.</p>
+
+<p>Meanwhile, a community center acts to engage the village with outsiders, and holds recreational facilities.</p>
+<img src="images/veteransvillage/vvsite.jpg" width="100%"/>
+
+
+
+
+      </div>
+
+  </body>
+  </html>
